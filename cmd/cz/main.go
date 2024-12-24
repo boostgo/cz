@@ -19,13 +19,10 @@ var commitTypes = []CommitType{
 	{Label: "feat", Description: "A new feature"},
 	{Label: "fix", Description: "A bug fix"},
 	{Label: "docs", Description: "Documentation only changes"},
-	{Label: "style", Description: "Changes that do not affect the meaning of the code"},
-	{Label: "refactor", Description: "A code change that neither fixes a bug nor adds a feature"},
+	{Label: "ref", Description: "A code change that neither fixes a bug nor adds a feature"},
 	{Label: "perf", Description: "A code change that improves performance"},
 	{Label: "test", Description: "Adding missing tests or correcting existing tests"},
-	{Label: "build", Description: "Changes that affect the build system or external dependencies"},
 	{Label: "ci", Description: "Changes to our CI configuration files and scripts"},
-	{Label: "chore", Description: "Other changes that don't modify src or test files"},
 }
 
 func main() {
